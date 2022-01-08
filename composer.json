@@ -1,0 +1,17 @@
+{
+    "name": "lawrence/systemx3",
+    "autoload": {
+        "psr-4": {
+            "Lawrence\\Systemx3\\": "src/"
+        }
+    },
+	"autoload":{
+		"psr-4":{
+			"app\\": "./"
+		}
+	},
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "systemx/systemx": "^0.0.2"
+    }
+}

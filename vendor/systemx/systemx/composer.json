@@ -1,0 +1,21 @@
+{
+    "name": "systemx/systemx",
+    "description": "MVC framework",
+    "autoload": {
+        "psr-4": {
+            "SystemxFintech\\Systemx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "systemx",
+            "email": "thelaw111@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"systemx\\systemx\\": "."
+		}
+	}
+}
