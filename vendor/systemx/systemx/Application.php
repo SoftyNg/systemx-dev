@@ -6,14 +6,14 @@ namespace systemx\systemx;
  */
  
  use systemx\systemx\Controller;
-  use systemx\systemx\db\Database;
-   use systemx\systemx\db\DbModel;
-  use systemx\systemx\Session;
+ use systemx\systemx\db\Database;
+ use systemx\systemx\db\DbModel;
+ use systemx\systemx\Session;
 class Application
 {
 	 
-	const EVENT_BEFORE_REQUEST = 'beforeRequest';
-	const EVENT_AFTER_REQUEST = 'afterRequest';
+	// const EVENT_BEFORE_REQUEST = 'beforeRequest';
+	// const EVENT_AFTER_REQUEST = 'afterRequest';
 	
 	
 	protected array $eventListeners = [];
@@ -74,7 +74,7 @@ class Application
 		$this->session->remove('user');
 	}
 	public function run(){
-		$this->triggerEvent(self::EVENT_BEFORE_REQUEST);
+		//$this->triggerEvent(self::EVENT_BEFORE_REQUEST);
 		try{
 	echo $this->router->resolve();
 		}catch(\Exception $e){

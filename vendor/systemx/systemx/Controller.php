@@ -6,7 +6,7 @@ namespace systemx\systemx;
  */
  use systemx\systemx\Application;
  use systemx\systemx\Router;
-  use systemx\systemx\middlewares\BaseMiddleware;
+ use systemx\systemx\middlewares\BaseMiddleware;
   use systemx\systemx\middlewares\AuthMiddleware;
 class Controller
 {
